@@ -72,6 +72,10 @@ p {
 font-size: 70px;
 
 }
+.evenbigger{
+
+  font-size: 120px;
+}
 .white{
   color: #ffd6bf;
 
@@ -159,6 +163,10 @@ a:hover, a:active, a:focus {
   position: relative;
   padding-top: 80px;
   padding-bottom: 80px;
+}
+.wrapper {
+    min-height: 100%;
+    position: relative;
 }
 
 #service, #work {
@@ -363,6 +371,12 @@ background: url('../images/home_bg_info.png') 50% 0 repeat-y fixed !important;
 
 .work-thumb:hover .work-thumb-overlay {
   opacity: 1;
+}
+
+.table1{
+
+
+  margin-left: 25px
 }
 
 
