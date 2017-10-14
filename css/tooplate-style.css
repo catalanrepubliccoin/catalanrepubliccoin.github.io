@@ -87,13 +87,24 @@ font-size: 70px;
 .white-color {
   color: #f0f0f0; /* COLOR DE LA FONT EL IMPORANT  */
 }
-
-
+.grey-color{
+  color: #bfbfbf;
+}
 
 /*---------------------------------------
   Buttons               
 -----------------------------------------*/
 
+.margintoptb{
+
+  margin-top: 30px;
+}
+.margintable{
+
+margin-top: 50px;
+margin-left: 150px;
+margin-right: 150px;
+}
 .section-btn {
   background: #000000;
   border: none;
@@ -259,12 +270,26 @@ background: url('../images/home_bg_info.png') 50% 0 repeat-y fixed !important;
 
 }
 
+.aco{
+  background: url('../images/home_bg_aconseguir.png') 50% 0 repeat-y fixed !important;
+}
 
 .nos{
   background: url('../images/home_bg_nos.png') 50% 0 repeat-y fixed !important;
 
 }
 
+#imgtb {
+    height: auto; 
+    width: auto; 
+    max-width: 150px; 
+    max-height: 150px;
+}
+
+.centerimg{
+    margin-left: auto;
+    margin-right: auto;
+}
 /*---------------------------------------
   Service section              
 -----------------------------------------*/
@@ -287,7 +312,7 @@ background: url('../images/home_bg_info.png') 50% 0 repeat-y fixed !important;
 
 .service-thumb:hover .fa,
 .service-thumb:hover h4 {
-  color: #ffffff;
+  color: #cb2d3e;
 }
 
 .service-thumb h4 {
@@ -305,6 +330,7 @@ background: url('../images/home_bg_info.png') 50% 0 repeat-y fixed !important;
 .bg-grey .fa {
   color: #ffffff;
 }
+
 
 
 
@@ -384,7 +410,11 @@ background: url('../images/home_bg_info.png') 50% 0 repeat-y fixed !important;
 /*---------------------------------------
   Contact section              
 -----------------------------------------*/
+.marginbot{
 
+margin-bottom: 2cm;
+
+}
 .contact-info .fa {
   padding-right: 5px;
 }
